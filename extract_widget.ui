@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>extract_widget</class>
+ <widget class="QWidget" name="extract_widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>674</width>
+    <height>409</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QScrollArea" name="scrollArea">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="content">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>648</width>
+          <height>319</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QTextBrowser" name="detail_text"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>50</width>
+           <height>55</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="mark_label">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>150</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Microsoft YaHei</family>
+               <pointsize>9</pointsize>
+               <weight>3</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 25 9pt &quot;Microsoft YaHei&quot;;</string>
+             </property>
+             <property name="text">
+              <string>给这次抽取结果打分：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSplitter" name="splitter_4">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <widget class="QPushButton" name="star1">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/main/img/empty_star.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="star2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/main/img/empty_star.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="star3">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/main/img/empty_star.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="star4">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/main/img/empty_star.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="star5">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/main/img/empty_star.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="source.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>star1</sender>
+   <signal>clicked()</signal>
+   <receiver>extract_widget</receiver>
+   <slot>mark1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>341</x>
+     <y>366</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>323</x>
+     <y>399</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>star2</sender>
+   <signal>clicked()</signal>
+   <receiver>extract_widget</receiver>
+   <slot>mark2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>382</x>
+     <y>365</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>382</x>
+     <y>408</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>star3</sender>
+   <signal>clicked()</signal>
+   <receiver>extract_widget</receiver>
+   <slot>mark3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>423</x>
+     <y>370</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>415</x>
+     <y>406</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>star4</sender>
+   <signal>clicked()</signal>
+   <receiver>extract_widget</receiver>
+   <slot>mark4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>457</x>
+     <y>370</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>452</x>
+     <y>399</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>star5</sender>
+   <signal>clicked()</signal>
+   <receiver>extract_widget</receiver>
+   <slot>mark5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>490</x>
+     <y>361</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>491</x>
+     <y>408</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>mark1()</slot>
+  <slot>mark2()</slot>
+  <slot>mark3()</slot>
+  <slot>mark4()</slot>
+  <slot>mark5()</slot>
+ </slots>
+</ui>
