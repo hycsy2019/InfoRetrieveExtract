@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="main">
+    <file>img/empty_star.png</file>
+    <file>img/star.png</file>
+    <file>img/inquire.jpg</file>
+  </qresource>
+</RCC>
